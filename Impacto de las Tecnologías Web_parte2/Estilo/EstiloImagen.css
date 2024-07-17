@@ -1,0 +1,23 @@
+/* Estilo para imágenes */
+img {
+    display: block; /* Para asegurar que la imagen sea un bloque */
+    margin: auto; /* Centrar la imagen horizontalmente */
+    max-width: 100%; /* Ajustar la imagen al ancho máximo del contenedor */
+    transition: opacity 0.3s ease; /* Transición de opacidad suave */
+}
+
+img:hover {
+    opacity: 0.7; /* Reducir la opacidad al pasar el cursor */
+}
+
+/* Estilo para videos */
+video {
+    display: block; /* Para asegurar que el video sea un bloque */
+    margin: auto; /* Centrar el video horizontalmente */
+    max-width: 100%; /* Ajustar el video al ancho máximo del contenedor */
+    transition: opacity 0.3s ease; /* Transición de opacidad suave */
+}
+
+video:hover {
+    opacity: 0.7; /* Reducir la opacidad al pasar el cursor */
+}

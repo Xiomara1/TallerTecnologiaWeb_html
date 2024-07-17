@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e2e2e2 25%, transparent 25%) -50px 0,
+                linear-gradient(225deg, #e2e2e2 25%, transparent 25%) -50px 0,
+                linear-gradient(315deg, #e2e2e2 25%, transparent 25%),
+                linear-gradient(45deg, #e2e2e2 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: #f0f7ee;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para tabla */
+    border-radius: 8px; /* Bordes redondeados */
+    margin: 20px auto; /* Centrando la tabla */
+}
+
+th, td {
+    padding: 1em;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(66, 107, 63, 0.8); /* Fondo semitransparente */
+    color: white;
+}
+
+nav {
+    background-color: rgba(74, 130, 65, 0.8); /* Fondo semitransparente */
+    color: white;
+}
+
+main {
+    background-color: rgba(224, 243, 208, 0.8); /* Fondo semitransparente */
+}
+
+footer {
+    background-color: rgba(66, 107, 63, 0.8); /* Fondo semitransparente */
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}

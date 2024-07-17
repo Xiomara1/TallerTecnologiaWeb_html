@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #3498db, #2980b9); /* Fondo degradado azul */
+}
+
+header {
+    background: linear-gradient(to bottom, #2980b9, #1abc9c); /* Fondo degradado azul-verde */
+    color: white;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+header:hover {
+    background: linear-gradient(to bottom, #1abc9c, #16a085); /* Cambio de gradiente al pasar el cursor */
+    transform: translateY(-2px); /* Efecto de levantamiento */
+}
+
+nav {
+    background: linear-gradient(to bottom, #1abc9c, #16a085); /* Fondo degradado azul-verde */
+    color: white;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #2980b9; /* Cambio de color al pasar el cursor */
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    background: linear-gradient(to bottom, #ecf0f1, #bdc3c7); /* Fondo degradado gris-azul */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+main:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el cursor */
+    transform: translateY(-2px); /* Efecto de levantamiento */
+}
+
+footer {
+    background: linear-gradient(to bottom, #2980b9, #1abc9c); /* Fondo degradado azul-verde */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para efecto 3D */
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+footer:hover {
+    background: linear-gradient(to bottom, #1abc9c, #16a085); /* Cambio de gradiente al pasar el cursor */
+    transform: translateY(-2px); /* Efecto de levantamiento */
+}
+
+p {
+    font-size: 1.1em; /* Tamaño de fuente ajustado */
+    text-align: justify; /* Texto justificado */
+    font-style: italic; /* Fuente en cursiva */
+}
